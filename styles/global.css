@@ -15,17 +15,18 @@
     --accent-orange: #E95E10;
     --accent-pink: #E5245E;
     --accent-purple: #591B98;
-    --font-family: 'Open-sanz';
+    --font-family: 'Open Sans', 'sans-serif';
     --headline: 16px bold;
 }
 
 body{
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-family);
     color: var(--text-secondary);
     background-color: var(--background);
+    width: 1280px;
 }
 
 h1{
